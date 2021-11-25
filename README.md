@@ -1,1 +1,1 @@
-# CE-C-Plus-Plus-Toolchain-Visual-Studio-Template-2019
+# CE C Toolchain Visual Studio C++ Template 2019
