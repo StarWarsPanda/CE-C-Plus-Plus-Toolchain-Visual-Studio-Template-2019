@@ -1,0 +1,26 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+  <TemplateData>
+    <Name>CE C Toolchain</Name>
+    <Description>A project to create a C program for the TI-84 Plus CE</Description>
+    <ProjectType>VC</ProjectType>
+    <ProjectSubType>
+    </ProjectSubType>
+    <SortOrder>1000</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>CE C Toolchain</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <Icon>__TemplateIcon.ico</Icon>
+    <PreviewImage>__PreviewImage.png</PreviewImage>
+  </TemplateData>
+  <TemplateContent>
+    <Project TargetFileName="Platformer.vcxproj" File="Platformer.vcxproj" ReplaceParameters="true">
+      <ProjectItem ReplaceParameters="false" TargetFileName="$projectname$.vcxproj.filters">Platformer.vcxproj.filters</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="main.c">SRC\main.c</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="PLATFRMR.bin">BIN\PLATFRMR.bin</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="makefile">makefile</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="readme.md">readme.md</ProjectItem>
+    </Project>
+  </TemplateContent>
+</VSTemplate>
