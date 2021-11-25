@@ -29,7 +29,7 @@ int main(void)
 		gfx_FillRectangle(135, 95, 50, 50);
 
 		/* Swap the buffer and the screen to update the frame */
-		gfx_BlitBuffer();
+		gfx_SwapDraw();
 
 	} while ((key & kb_Data[6]) != kb_Clear);
 
